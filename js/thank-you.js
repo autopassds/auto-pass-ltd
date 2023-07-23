@@ -4,6 +4,6 @@ let seconds = document.getElementById('seconds');
 setInterval(() => {
   seconds.innerHTML--;
   if (seconds.innerHTML < 1) {
-    location.replace("/index");
+    location.replace("https://autopassds.github.io/auto-pass-ltd/");
   }
 }, 1000)
