@@ -429,8 +429,17 @@
     box-shadow: none;
 }
 
+.footer .btn-outline-light {
+    color: var(--gold-light);
+    border-color: var(--gold-light);
+}
+
+.footer .socials {
+    color: var(--gold-light);
+}
+
 .copyright {
-    background: #092139;
+    background: var(--dark-light);
 }
 
 .copyright a {
