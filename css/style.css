@@ -5,10 +5,47 @@
     --light: #F3F6F8;
     --dark: #0C2B4B;
     /* Custom colors added */
+    --black: black;
     --dark-light: #3C3D37;
     --light-grey: #E6E0DA;
     --gold-light: #E8B73A;
     --gold-dark: #CC9304;
+}
+
+body {
+    background-color: var(--dark-light);
+    color: var(--light-grey);
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    color: var(--light-grey);
+}
+
+p {
+    color: var(--gold-light);
+}
+
+form label {
+    color: var(--dark-light);
+}
+
+.black-bg {
+    background-color: var(--black);
+}
+
+.bg-primary {
+    background-color: var(--gold-light) !important;
 }
 
 .py-6 {
@@ -298,7 +335,7 @@
 /*** Courses ***/
 .courses {
     min-height: 100vh;
-    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-color: var(--dark-light);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -327,6 +364,14 @@
 /*** Team ***/
 .team-items {
     margin: -.75rem;
+}
+
+.team-items h5 {
+    color: var(--gold-light);
+}
+
+.team-items span {
+    color: var(--gold-light);
 }
 
 .team-item {
