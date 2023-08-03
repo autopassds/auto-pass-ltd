@@ -32,6 +32,10 @@ h6,
     color: var(--light-grey);
 }
 
+.make-appointment-h1 {
+    color: var(--black);
+}
+
 p {
     color: var(--gold-light);
 }
