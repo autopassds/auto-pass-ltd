@@ -106,6 +106,16 @@
         <!-- Page Header Start -->
         <div class="container-fluid page-header-contact-banner py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
             <div class="container text-center">
+                <div class="hero-contact-details d-lg-none">
+                    <div class="hero-contact-item">
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        <span>Manchester - UK - M30</span>
+                    </div>
+                    <div class="hero-contact-item">
+                        <i class="fa fa-phone-alt text-primary me-2"></i>
+                        <a href="tel:07466255477">07466 255 477</a>
+                    </div>
+                </div>
                 <h1 class="display-4 text-white animated slideInDown mb-4">Contact</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb justify-content-center mb-0">
@@ -247,7 +257,7 @@
 
 <!-- Start of Glassix WhatsApp Widget -->
 <script>
-        var stringifiedOptions = `{"numbers":[{"number":"447908085757","name":"Customer Support","subtitle":"Contact us"}],"left":false,"ltr":true,"popupText":"Need Help, want to book?\nChat with us on WhatsApp","title":"Hi There 👋","subTitle":"Click to start a conversation"}`;
+        var stringifiedOptions = `{"numbers":[{"number":"447723913186","name":"Customer Support","subtitle":"Contact us"}],"left":false,"ltr":true,"popupText":"Need Help, want to book?\nChat with us on WhatsApp","title":"Hi There 👋","subTitle":"Click to start a conversation"}`;
         var glassixWidgetOptions = JSON.parse(stringifiedOptions.replace(/\n/g, '\\n'));
         !function (t) { var e = function () { window.requirejs && !window.whatsAppWidgetClient && (requirejs.config({ paths: { GlassixWhatsAppWidgetClient: "https://cdn.glassix.com/clients/whatsapp.widget.1.2.min.js" } }), require(["GlassixWhatsAppWidgetClient"], function (t) { window.whatsAppWidgetClient = new t(window.glassixWidgetOptions), whatsAppWidgetClient.attach() })), window.GlassixWhatsAppWidgetClient && "function" == typeof window.GlassixWhatsAppWidgetClient ? (window.whatsAppWidgetClient = new GlassixWhatsAppWidgetClient(t), whatsAppWidgetClient.attach()) : i() }, i = function () { a.onload = e, a.src = "https://cdn.glassix.net/clients/whatsapp.widget.1.2.min.js", s && s.parentElement && s.parentElement.removeChild(s), n.parentNode.insertBefore(a, n) }, n = document.getElementsByTagName("script")[0], s = document.createElement("script"); s.async = !0, s.type = "text/javascript", s.crossorigin = "anonymous", s.id = "glassix-whatsapp-widget-script"; var a = s.cloneNode(); s.onload = e, s.src = "https://cdn.glassix.com/clients/whatsapp.widget.1.2.min.js", !document.getElementById(s.id) && document.body && (n.parentNode.insertBefore(s, n), s.onerror = i) }(glassixWidgetOptions);
 </script>
