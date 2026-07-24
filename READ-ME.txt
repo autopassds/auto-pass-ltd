@@ -1,4 +1,4 @@
-  =>  Template Name    : Drivin - Driving School Website Template
+  =>  Template Name    : Drivin - Driving School Website Template - Test
 
   =>  Template Link    : https://htmlcodex.com/driving-school-website-template
 
