@@ -509,6 +509,18 @@ form label {
     box-shadow: none;
 }
 
+.footer .btn.btn-link .trustpilot-stars {
+    display: block;
+    margin: 8px 0 0;
+    color: var(--gold-light);
+    letter-spacing: 2px;
+    transition: letter-spacing .3s;
+}
+
+.footer .btn.btn-link:hover .trustpilot-stars {
+    letter-spacing: 3px;
+}
+
 .footer .btn-outline-light {
     color: var(--gold-light);
     border-color: var(--gold-light);
